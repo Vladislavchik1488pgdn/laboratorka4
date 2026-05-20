@@ -38,7 +38,6 @@ def main():
             name = cols[3].text.strip()
             rate = cols[4].text.strip()
 
-            # Виводимо дані у форматованому вигляді
             print(f"| {num_code:<13} | {char_code:<13} | {name:<35} | {rate:<15} |")
 
 
