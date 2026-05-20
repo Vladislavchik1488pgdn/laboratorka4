@@ -7,7 +7,7 @@ def main():
 
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Перевірка на помилки з'єднання
+        response.raise_for_status()  
     except requests.exceptions.RequestException as e:
         print(f"Помилка при завантаженні сторінки: {e}")
         return
